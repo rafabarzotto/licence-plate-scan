@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BECBDB9A1DB403E500D7D3C4 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBDB961DB403E500D7D3C4 /* leptonica.framework */; };
+		BECBDB9B1DB403E500D7D3C4 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBDB971DB403E500D7D3C4 /* openalpr.framework */; };
+		BECBDB9C1DB403E500D7D3C4 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBDB981DB403E500D7D3C4 /* tesseract.framework */; };
+		BECBDB9D1DB403E500D7D3C4 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBDB991DB403E500D7D3C4 /* opencv2.framework */; };
+		BECBDB9F1DB4044000D7D3C4 /* runtime_data in Resources */ = {isa = PBXBuildFile; fileRef = BECBDB9E1DB4044000D7D3C4 /* runtime_data */; };
+		BECBDBA11DB4045D00D7D3C4 /* openalpr.conf in Resources */ = {isa = PBXBuildFile; fileRef = BECBDBA01DB4045D00D7D3C4 /* openalpr.conf */; };
+		BECBDBA61DB404EB00D7D3C4 /* Plate.mm in Sources */ = {isa = PBXBuildFile; fileRef = BECBDBA31DB404EB00D7D3C4 /* Plate.mm */; };
+		BECBDBA71DB404EB00D7D3C4 /* PlateScanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = BECBDBA51DB404EB00D7D3C4 /* PlateScanner.mm */; };
+		BECBDBA91DB4080900D7D3C4 /* h786poj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BECBDBA81DB4080900D7D3C4 /* h786poj.jpg */; };
+		BECBDBAB1DB40E4700D7D3C4 /* Abre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BECBDBAA1DB40E4700D7D3C4 /* Abre.jpg */; };
 		BEDF0E331DB402EC0030F696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF0E301DB402EC0030F696 /* AppDelegate.m */; };
-		BEDF0E341DB402EC0030F696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF0E321DB402EC0030F696 /* ViewController.m */; };
+		BEDF0E341DB402EC0030F696 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEDF0E321DB402EC0030F696 /* ViewController.mm */; };
 		BEDF0E371DB402F40030F696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDF0E351DB402F40030F696 /* Main.storyboard */; };
 		BEECAF261DB3FE7A00DF0CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEECAF251DB3FE7A00DF0CDD /* main.m */; };
 		BEECAF311DB3FE7B00DF0CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEECAF301DB3FE7B00DF0CDD /* Assets.xcassets */; };
@@ -16,10 +26,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BECBDB961DB403E500D7D3C4 /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = leptonica.framework; path = PlateScan/leptonica.framework; sourceTree = "<group>"; };
+		BECBDB971DB403E500D7D3C4 /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openalpr.framework; path = PlateScan/openalpr.framework; sourceTree = "<group>"; };
+		BECBDB981DB403E500D7D3C4 /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tesseract.framework; path = PlateScan/tesseract.framework; sourceTree = "<group>"; };
+		BECBDB991DB403E500D7D3C4 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = PlateScan/opencv2.framework; sourceTree = "<group>"; };
+		BECBDB9E1DB4044000D7D3C4 /* runtime_data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = runtime_data; sourceTree = SOURCE_ROOT; };
+		BECBDBA01DB4045D00D7D3C4 /* openalpr.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openalpr.conf; sourceTree = SOURCE_ROOT; };
+		BECBDBA21DB404EB00D7D3C4 /* Plate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plate.h; sourceTree = "<group>"; };
+		BECBDBA31DB404EB00D7D3C4 /* Plate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Plate.mm; sourceTree = "<group>"; };
+		BECBDBA41DB404EB00D7D3C4 /* PlateScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateScanner.h; sourceTree = "<group>"; };
+		BECBDBA51DB404EB00D7D3C4 /* PlateScanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlateScanner.mm; sourceTree = "<group>"; };
+		BECBDBA81DB4080900D7D3C4 /* h786poj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h786poj.jpg; sourceTree = "<group>"; };
+		BECBDBAA1DB40E4700D7D3C4 /* Abre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abre.jpg; sourceTree = "<group>"; };
 		BEDF0E2F1DB402EC0030F696 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEDF0E301DB402EC0030F696 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BEDF0E311DB402EC0030F696 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEDF0E321DB402EC0030F696 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEDF0E321DB402EC0030F696 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		BEDF0E361DB402F40030F696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEECAF211DB3FE7A00DF0CDD /* PlateScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEECAF251DB3FE7A00DF0CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,15 +55,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECBDB9A1DB403E500D7D3C4 /* leptonica.framework in Frameworks */,
+				BECBDB9B1DB403E500D7D3C4 /* openalpr.framework in Frameworks */,
+				BECBDB9D1DB403E500D7D3C4 /* opencv2.framework in Frameworks */,
+				BECBDB9C1DB403E500D7D3C4 /* tesseract.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BECBDB951DB403CB00D7D3C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECBDB961DB403E500D7D3C4 /* leptonica.framework */,
+				BECBDB971DB403E500D7D3C4 /* openalpr.framework */,
+				BECBDB981DB403E500D7D3C4 /* tesseract.framework */,
+				BECBDB991DB403E500D7D3C4 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEECAF181DB3FE7A00DF0CDD = {
 			isa = PBXGroup;
 			children = (
+				BECBDB951DB403CB00D7D3C4 /* Frameworks */,
 				BEECAF231DB3FE7A00DF0CDD /* PlateScan */,
 				BEECAF221DB3FE7A00DF0CDD /* Products */,
 			);
@@ -58,11 +96,17 @@
 		BEECAF231DB3FE7A00DF0CDD /* PlateScan */ = {
 			isa = PBXGroup;
 			children = (
+				BECBDBA81DB4080900D7D3C4 /* h786poj.jpg */,
+				BECBDBA21DB404EB00D7D3C4 /* Plate.h */,
+				BECBDBAA1DB40E4700D7D3C4 /* Abre.jpg */,
+				BECBDBA31DB404EB00D7D3C4 /* Plate.mm */,
+				BECBDBA41DB404EB00D7D3C4 /* PlateScanner.h */,
+				BECBDBA51DB404EB00D7D3C4 /* PlateScanner.mm */,
 				BEDF0E351DB402F40030F696 /* Main.storyboard */,
 				BEDF0E2F1DB402EC0030F696 /* AppDelegate.h */,
 				BEDF0E301DB402EC0030F696 /* AppDelegate.m */,
 				BEDF0E311DB402EC0030F696 /* ViewController.h */,
-				BEDF0E321DB402EC0030F696 /* ViewController.m */,
+				BEDF0E321DB402EC0030F696 /* ViewController.mm */,
 				BEECAF301DB3FE7B00DF0CDD /* Assets.xcassets */,
 				BEECAF251DB3FE7A00DF0CDD /* main.m */,
 				BEECAF321DB3FE7B00DF0CDD /* LaunchScreen.storyboard */,
@@ -75,6 +119,8 @@
 		BEECAF241DB3FE7A00DF0CDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BECBDBA01DB4045D00D7D3C4 /* openalpr.conf */,
+				BECBDB9E1DB4044000D7D3C4 /* runtime_data */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,7 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEDF0E371DB402F40030F696 /* Main.storyboard in Resources */,
+				BECBDBA11DB4045D00D7D3C4 /* openalpr.conf in Resources */,
+				BECBDB9F1DB4044000D7D3C4 /* runtime_data in Resources */,
+				BECBDBAB1DB40E4700D7D3C4 /* Abre.jpg in Resources */,
 				BEECAF341DB3FE7B00DF0CDD /* LaunchScreen.storyboard in Resources */,
+				BECBDBA91DB4080900D7D3C4 /* h786poj.jpg in Resources */,
 				BEECAF311DB3FE7B00DF0CDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEDF0E341DB402EC0030F696 /* ViewController.m in Sources */,
+				BECBDBA71DB404EB00D7D3C4 /* PlateScanner.mm in Sources */,
+				BEDF0E341DB402EC0030F696 /* ViewController.mm in Sources */,
 				BEDF0E331DB402EC0030F696 /* AppDelegate.m in Sources */,
+				BECBDBA61DB404EB00D7D3C4 /* Plate.mm in Sources */,
 				BEECAF261DB3FE7A00DF0CDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +325,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FD96D52RT5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlateScan",
+				);
 				INFOPLIST_FILE = PlateScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,6 +343,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FD96D52RT5;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PlateScan",
+				);
 				INFOPLIST_FILE = PlateScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
